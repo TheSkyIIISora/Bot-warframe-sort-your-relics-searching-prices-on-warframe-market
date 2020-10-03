@@ -21,7 +21,7 @@ def liste(reliques):        #add relics to a list
     global liste_reliques,relique,fin
     if (reliques == '14'):
         fin=1
-        print("end\n")
+        print("end\nIt'll take "+str(14*len(liste_reliques))+' seconds')
     else:
         liste_reliques = liste_reliques + [reliques]
         
