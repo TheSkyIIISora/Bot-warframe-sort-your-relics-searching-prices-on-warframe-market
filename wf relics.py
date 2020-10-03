@@ -103,6 +103,7 @@ while (True):
     u_final=[]
     while (len(u_final)!= len(ordre)):      #sort all
         if (u_prix[rangement] == u_prix2[rangement2]):
+            u_prix2[rangement2]=0
             rangement2=rangement2+1
             u_final = u_final+ordre[rangement2*3-3:rangement2*3]
             rangement=rangement+1
