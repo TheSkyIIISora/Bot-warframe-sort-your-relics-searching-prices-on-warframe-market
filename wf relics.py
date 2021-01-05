@@ -25,7 +25,7 @@ def liste(reliques):        #add relics to a list
     else:
         liste_reliques = liste_reliques + [reliques]
         
-driver = Firefox()
+driver = Firefox(executable_path=r'C:/tmp/git/Bot-warframe-sort-your-relics-searching-prices-on-warframe-market/geckodriver.exe')
 relique = ''
 
 while (True):
